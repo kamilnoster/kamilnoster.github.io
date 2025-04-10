@@ -36,10 +36,15 @@ jobs:
           extended: true
 
       - name: Build with Hugo
-        run: hugo --minify
+        run: |
+          hugo --minify
+          ls -la public/
 
       - name: Copy CNAME
-        run: cp CNAME public/
+        run: |
+          cp CNAME public/
+          echo "CNAME file contents:"
+          cat public/CNAME
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
