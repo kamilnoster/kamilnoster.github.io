@@ -1,25 +1,48 @@
 ---
 title: "About Me"
 date: 2024-04-08
-description: "Learn more about me and my journey"
+description: "Software Developer with a passion for creating elegant solutions"
 ---
 
 # About Me
 
-Welcome to my portfolio! I'm a passionate developer/designer with a keen interest in creating beautiful and functional digital experiences.
+I'm a passionate software developer with a keen interest in creating elegant and efficient solutions. My journey in technology has been driven by curiosity and a desire to build things that make a difference.
 
-## My Journey
+## Skills & Expertise
 
-I've been working in the tech industry for several years, focusing on web development and design. My expertise includes:
+### Languages & Frameworks
+- JavaScript/TypeScript
+- Python
+- Go
+- React
+- Vue.js
+- Node.js
 
-- Frontend Development
-- UI/UX Design
-- Backend Development
-- Project Management
+### Tools & Technologies
+- Git
+- Docker
+- AWS
+- CI/CD
+- VS Code
+- Figma
 
-## Skills
+## Experience
 
-- Programming Languages: JavaScript, Python, Go
-- Frameworks: React, Vue.js, Hugo
-- Tools: Git, Docker, VS Code
-- Design: Figma, Adobe Creative Suite 
+### Software Development
+- Building scalable web applications
+- Creating efficient backend systems
+- Implementing modern frontend solutions
+- Working with cloud technologies
+
+### Project Management
+- Agile methodologies
+- Team collaboration
+- Code review
+- Technical documentation
+
+## Education
+
+- Bachelor's Degree in Computer Science
+- Various certifications in web development and cloud technologies
+
+Feel free to reach out if you'd like to collaborate or just chat about tech! 

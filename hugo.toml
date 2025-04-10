@@ -1,18 +1,44 @@
 baseURL = "https://noster.dev/"
 languageCode = "en-us"
-title = "My Portfolio"
-theme = "ananke"
+title = "Kamil Noster"
+theme = "console"
 
 [params]
-  description = "My personal portfolio website"
-  author = "Your Name"
-  showFullText = true
+  favicon = "favicon.ico"
+  description = "Software Developer Portfolio"
+  keywords = ["developer", "portfolio", "software", "web"]
+  author = "Kamil Noster"
+  dateFormat = "January 2, 2006"
+  defaultTheme = "dark"
+  showReadingTime = true
+  showWordCount = true
+  showRssButtonInSectionTermList = true
+  showShareButtons = true
+  showPostNavLinks = true
+  showBreadCrumbs = true
+  showCodeCopyButtons = true
+
+[params.console]
+  title = "Kamil Noster"
+  subtitle = "Software Developer"
+  logo = "logo.png"
+  favicon = "favicon.ico"
+  copyright = "© 2024 Kamil Noster"
+  since = 2024
+  showHeader = true
+  headerText = "Welcome to my portfolio"
+  showFooter = true
+  showSearch = true
+  showMenu = true
+  showRssButton = true
+  showAppearanceSwitcher = true
+  showScrollTop = true
+  showTaxonomyCounts = true
+  showWordCount = true
   showReadingTime = true
   showPostNavLinks = true
   showBreadCrumbs = true
-  showWordCount = true
-  showRssButtonInSectionTermList = true
-  useHugoToc = true
+  showCodeCopyButtons = true
 
 [menu]
   [[menu.main]]
@@ -30,3 +56,9 @@ theme = "ananke"
     name = "Contact"
     url = "/contact/"
     weight = 30
+
+[socialIcons]
+  email = "mailto:your.email@example.com"
+  github = "https://github.com/kamilnoster"
+  linkedin = "https://linkedin.com/in/kamilnoster"
+  twitter = "https://twitter.com/kamilnoster"
