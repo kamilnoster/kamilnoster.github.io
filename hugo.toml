@@ -1,0 +1,32 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "My Portfolio"
+theme = "ananke"
+
+[params]
+  description = "My personal portfolio website"
+  author = "Your Name"
+  showFullText = true
+  showReadingTime = true
+  showPostNavLinks = true
+  showBreadCrumbs = true
+  showWordCount = true
+  showRssButtonInSectionTermList = true
+  useHugoToc = true
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 20
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 30
