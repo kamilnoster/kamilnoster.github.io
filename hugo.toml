@@ -27,11 +27,18 @@ theme = "console"
   since = 2024
   showHeader = true
   headerText = "Welcome to my portfolio"
+  headerLogo = true
+  headerLogoText = "KN"
+  headerLogoTextColor = "#fff"
+  headerLogoBackgroundColor = "#2196F3"
   showFooter = true
   showSearch = true
   showMenu = true
+  menuPosition = "right"
   showRssButton = true
   showAppearanceSwitcher = true
+  appearanceSwitcherText = "🌙"
+  appearanceSwitcherTextDark = "☀️"
   showScrollTop = true
   showTaxonomyCounts = true
   showWordCount = true
@@ -39,6 +46,7 @@ theme = "console"
   showPostNavLinks = true
   showBreadCrumbs = true
   showCodeCopyButtons = true
+  appearanceSwitcherPosition = "header"
 
 [menu]
   [[menu.main]]
