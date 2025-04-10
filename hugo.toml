@@ -4,69 +4,34 @@ title = "Kamil Noster"
 theme = "console"
 
 [params]
-  favicon = "favicon.ico"
   description = "Software Developer Portfolio"
-  keywords = ["developer", "portfolio", "software", "web"]
   author = "Kamil Noster"
-  dateFormat = "January 2, 2006"
-  defaultTheme = "dark"
-  showReadingTime = true
-  showWordCount = true
-  showRssButtonInSectionTermList = true
-  showShareButtons = true
-  showPostNavLinks = true
-  showBreadCrumbs = true
-  showCodeCopyButtons = true
+  titleCutting = true
+  animateStyle = "animated zoomIn fast"
+
+  [[params.navlinks]]
+  name = "About"
+  url = "/about/"
+
+  [[params.navlinks]]
+  name = "Projects"
+  url = "/projects/"
+
+  [[params.navlinks]]
+  name = "Contact"
+  url = "/contact/"
 
 [params.console]
   title = "Kamil Noster"
   subtitle = "Software Developer"
-  logo = "logo.png"
-  favicon = "favicon.ico"
-  copyright = "© 2024 Kamil Noster"
-  since = 2024
   showHeader = true
-  headerText = "Welcome to my portfolio"
-  headerLogo = true
-  headerLogoText = "KN"
-  headerLogoTextColor = "#fff"
-  headerLogoBackgroundColor = "#2196F3"
-  showFooter = true
-  showSearch = true
   showMenu = true
   menuPosition = "right"
-  showRssButton = true
   showAppearanceSwitcher = true
+  defaultTheme = "light"
+  appearance = "light"
   appearanceSwitcherText = "🌙"
   appearanceSwitcherTextDark = "☀️"
-  showScrollTop = true
-  showTaxonomyCounts = true
-  showWordCount = true
-  showReadingTime = true
-  showPostNavLinks = true
-  showBreadCrumbs = true
-  showCodeCopyButtons = true
-  appearanceSwitcherPosition = "header"
-
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
-  [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    url = "/projects/"
-    weight = 20
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 30
-
-[socialIcons]
-  email = "mailto:your.email@example.com"
-  github = "https://github.com/kamilnoster"
-  linkedin = "https://linkedin.com/in/kamilnoster"
-  twitter = "https://twitter.com/kamilnoster"
+  theme = "light"
+  colorScheme = "light"
+  defaultAppearance = "light" 
