@@ -1,37 +1,30 @@
 baseURL = "https://noster.dev/"
-languageCode = "en-us"
 title = "Kamil Noster"
-theme = "console"
+theme = "hugo-theme-console"
+languageCode = "en-us"
 
 [params]
-  description = "Software Developer Portfolio"
-  author = "Kamil Noster"
+  # Site description
+  description = "Placeholder"
+
+  # Cutting off the page title to two chars for mobile
   titleCutting = true
+
+  # Set the animation style -- https://animate.style/
   animateStyle = "animated zoomIn fast"
 
   [[params.navlinks]]
-  name = "About"
-  url = "/about/"
+  name = "about/"
+  url = "about/"
 
   [[params.navlinks]]
-  name = "Projects"
-  url = "/projects/"
+  name = "blog/"
+  url = "posts/"
 
   [[params.navlinks]]
-  name = "Contact"
-  url = "/contact/"
+  name = "projects/"
+  url = "projects/"
 
-[params.console]
-  title = "Kamil Noster"
-  subtitle = "Software Developer"
-  showHeader = true
-  showMenu = true
-  menuPosition = "right"
-  showAppearanceSwitcher = true
-  defaultTheme = "light"
-  appearance = "light"
-  appearanceSwitcherText = "🌙"
-  appearanceSwitcherTextDark = "☀️"
-  theme = "light"
-  colorScheme = "light"
-  defaultAppearance = "light" 
+  [[params.navlinks]]
+  name = "contact/"
+  url = "contact/"
